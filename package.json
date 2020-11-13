@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "author": "Morgan CUGERONE",
+  "license": "MIT",
+  "name": "loca11y",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgaan/loca11y.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "geolib": "^3.3.1"
+  }
+}
